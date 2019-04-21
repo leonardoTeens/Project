@@ -1,0 +1,11 @@
+body
+{
+    margin: 0;
+}
+.header_container
+{
+    width: 100%;
+    height: 950px;
+    min-height: 950px;
+    background-color: black;
+}

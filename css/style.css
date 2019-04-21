@@ -12,15 +12,27 @@ body
 .navMenu_container
 {
     width: 100%;
-    height: 10%;
+    height: 100px;
+    min-height: 100px;
+    position: absolute;
+ 
    
 }
 .imgLogo
 {
     width: 6%;
     height: 95%;
-    position: relative;
+    min-height: 95%;
+    position: absolute ;
     top: 2.5%;
     left: 13%;
     
+}
+.navContainer
+{
+    width: 70%;
+    height: 85%;
+    position: absolute;
+    top: 2.5%;
+    left:28%; 
 }

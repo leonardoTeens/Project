@@ -20,19 +20,39 @@ body
 }
 .imgLogo
 {
-    width: 6%;
+    width: 7%;
+    max-width: 7%;
     height: 95%;
     min-height: 95%;
     position: absolute ;
     top: 2.5%;
-    left: 13%;
+    left: 1.5%;
     
 }
 .navContainer
 {
-    width: 70%;
+    width: 60%;
     height: 85%;
     position: absolute;
     top: 2.5%;
-    left:28%; 
+    left:35%; 
+}
+.captionContainer
+{
+    width: 15%;
+    height: 50%;
+    position: relative;
+    top: 13%;
+    left: 8%;
+
+    color: white;
+    position: absolute;
+    font-size: 2vw;
+    padding-left: 1%;
+}
+.captionSite
+{
+    color: white;
+    position: absolute;
+    font-size: 2.2vw;
 }

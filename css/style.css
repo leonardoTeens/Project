@@ -58,7 +58,7 @@ body
 .caorusel_blocks
 {
     position: absolute;
-    margin-top: -18%;
+    margin-top: -21%;
     width: 20%;
     left: 15%;
     height:420%;
@@ -68,6 +68,61 @@ body
 .newsContainer
 {
     width: 100%;
-    height: 50%;
+    height: 60%;
     background-color: white;
+}
+.newsName {
+    font-size: 250%;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 600;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+.mainNews {
+    height: 70%;
+    width: 60%;
+    border: solid black 4px;
+    position: relative;
+    left: 5%;
+    top: 3%;
+    border-radius: 1vw;
+
+}
+
+.secNews {
+    height: 30%;
+    width: 25%;
+    border: solid black 4px;
+    position: relative;
+    left: 70%;
+    top: -60%;
+    border-radius: 1vw;
+
+}
+.our_games
+{
+    height: 70%;
+    width: 100%;
+    background:url(../Images/outlast-wallpaper-2.jpg) no-repeat;
+    background-size:cover; 
+}
+.our_games_caption_cont
+{
+    height: 25%;
+    width: 50%;
+    top: 150%;
+    left: 7%;
+    position: absolute;
+}
+.component_showcase
+{
+    height: 50%;
+    width: 20%;
+    top: 160%;
+    left: 25%;
+    position: absolute;
+    border:0.2vw solid seashell;
+    border-radius: 1vw;
+
 }

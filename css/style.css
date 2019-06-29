@@ -111,18 +111,35 @@ body
 {
     height: 25%;
     width: 50%;
-    top: 150%;
+    top: 15%;
     left: 7%;
-    position: absolute;
+    position: relative;
 }
 .component_showcase
 {
-    height: 50%;
-    width: 20%;
-    top: 160%;
+    height: 120%;
+    width: 30%;
     left: 25%;
-    position: absolute;
+    position:relative ;
     border:0.2vw solid seashell;
     border-radius: 1vw;
+}
 
+.component_showcasa
+{
+    height: 120%;
+    width: 30%;
+    left: 25%;
+    position:relative ;
+    border:0.2vw solid seashell;
+    border-radius: 1vw;
+}
+.footer
+{
+    height: 16%;
+    width: 80%;
+    position:relative ;
+    background-color: rgb(118, 105, 79);
+    top: 59%;
+    left: 10%;
 }

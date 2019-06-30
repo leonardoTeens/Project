@@ -136,10 +136,48 @@ body
 }
 .footer
 {
-    height: 16%;
-    width: 80%;
-    position:relative ;
-    background-color: rgb(118, 105, 79);
-    top: 59%;
-    left: 10%;
+    height: 30%;
+    width: 100%;
+    position: relative ;
+    background-color: black;
+    top: 19%;
+}
+.social_mediaCont{
+    width: 20%;
+    height: 50%;
+    position: relative;
+    top: 15%;
+    left: 5%;
+
+}
+#socmedia:hover{
+    text-decoration: none;
+}
+h1:hover{
+    text-decoration: none;
+color: yellow;
+}
+.societyCaption
+{
+    color: white;
+    position: relative;
+    font-size: 1.7vw;
+    font-family: Noto Sans, sans-serif;
+}
+.partners
+{
+    width: 20%;
+    height: 50%;
+    position: relative;
+    left: 30%;
+    top: -35%;
+
+}
+.allRightsReserved
+{
+    width: 46%;
+    height: 85%;
+    position: relative;
+    left: 53%;
+    top: -90%;
 }

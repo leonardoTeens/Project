@@ -179,3 +179,12 @@ color: yellow;
     left: 53%;
     top: -91%;
 }
+
+.Button{
+    position: relative;
+    width: 20%;
+    height:90%;
+    top: 5%;
+
+    display: inline-block;
+}

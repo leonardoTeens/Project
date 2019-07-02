@@ -1,14 +1,14 @@
 <?php
 if ((include 'index.html') == TRUE) {
-    echo 'OK';
+    echo 'Include complete';
 }else{
-	echo 'pizda';
+	echo 'Include failed';
 }
+echo '<br>';
 $server = 'localhost';
 $user = 'root';
 $password = '';
 $database = 'game_market';
-
 try {
 	$conn = mysqli_connect($server, $user, $password, $database);
 	if($conn) {

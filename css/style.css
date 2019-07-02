@@ -4,8 +4,8 @@ body {
 
 .header_container {
     width: 100%;
-    height: 800px;
-    min-height: 800px;
+    height: 830px;
+    min-height: 830px;
     background-color: rgba(0, 0, 0, 0.979);
 }
 
@@ -57,7 +57,7 @@ body {
 
 .caorusel_blocks {
     position: absolute;
-    margin-top: -20%;
+    top: -200px;
     width: 20%;
     left: 15%;
     height: 340%;
@@ -100,10 +100,10 @@ body {
 }
 .our_games
 {
-    height: 500px;
+    height: 550px;
     width: 100%;
     background:url(../Images/outlast-wallpaper-2.jpg) no-repeat;
-    background-size:cover; 
+    background-size:100%; 
 }
 .our_games_caption_cont
 {
@@ -184,7 +184,26 @@ color: yellow;
     position: relative;
     width: 20%;
     height:90%;
-    top: 5%;
-
+    top: 22%;
+    left: -5%;
+    /*background-color: red;*/
     display: inline-block;
+}
+.navButtonTxt{
+    padding: 10%;
+    padding-top: 20%;
+    color: white;
+    font-size: 1.5vw;
+}
+.navButtonTxt:hover{
+    text-decoration: none;
+}
+#userIcon{
+position: absolute;
+display: inline;
+background:white;
+border-radius: 50%;
+width: 6%;
+height: 65px;
+margin-left: 4%;
 }

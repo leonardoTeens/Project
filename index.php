@@ -1,6 +1,6 @@
 <?php
 include_once 'php/connection.php';
-$_SESSION['user']['username'] = 'test123';
+//$_SESSION['user']['username'] = 'test123';
 ?>
 
 
@@ -57,34 +57,34 @@ $_SESSION['user']['username'] = 'test123';
               </div>
             </div>
           </div>
-           <div id="demo" class="carousel slide" style="height: 700px;top:50px;" data-ride="carousel">
+           <div id="demo" class="carousel slide" style="height: 700px;top:90px;" data-ride="carousel">
                     <div class="carousel-inner" >
                       <div class="carousel-item active">
-                        <img src="Тестовые лого и фавиконы/xiaomi_y720_black_images_3790950072.gif" alt="Los Angeles" width="700" style="height: 620px;top: -35px;">
+                        <img src="Тестовые лого и фавиконы/xiaomi_y720_black_images_3790950072.gif" alt="Los Angeles" width="700" style="height: 620px;top: -100px;">
                         <div class="carousel-caption">
-              <div class="caorusel_blocks"></div>
-              <div class="caorusel_blocks" style="left: 40%;"></div>
-              <div class="caorusel_blocks"  style="left: 65%;"></div>
+              <div class="caorusel_blocks" style="top:-250px"></div>
+              <div class="caorusel_blocks" style="left: 40%;top:-250px"></div>
+              <div class="caorusel_blocks"  style="left: 65%;top:-250px"></div>
                           <h3></h3>
                           <p></p>
                         </div>   
                       </div>
                       <div class="carousel-item">
-                        <img src="Тестовые лого и фавиконы/d8a14aaed16e1a34bd6195a7c6bdccae41b8fbb3_hq.gif" alt="Chicago" width="700"style="height: 620px;top: -35px;">
+                        <img src="Тестовые лого и фавиконы/d8a14aaed16e1a34bd6195a7c6bdccae41b8fbb3_hq.gif" alt="Chicago" width="700"style="height: 620px;top: -100px;">
                         <div class="carousel-caption">
-                            <div class="caorusel_blocks"></div>
-                            <div class="caorusel_blocks" style="left: 40%;"></div>
-                            <div class="caorusel_blocks"  style="left: 65%;"></div>
+                            <div class="caorusel_blocks" style="top:-250px"></div>
+                            <div class="caorusel_blocks" style="left: 40%;top:-250px"></div>
+                            <div class="caorusel_blocks"  style="left: 65%;top:-250px"></div>
                           <h3></h3>
                           <p></p>
                         </div>   
                       </div>
                       <div class="carousel-item">
-                        <img src="Тестовые лого и фавиконы/tenor.gif" alt="New York" width="700" style="height: 620px;top: -35px;">
+                        <img src="Тестовые лого и фавиконы/tenor.gif" alt="New York" width="700" style="height: 620px;top: -100px;">
                         <div class="carousel-caption">
-                            <div class="caorusel_blocks"></div>
-                            <div class="caorusel_blocks" style="left: 40%;"></div>
-                            <div class="caorusel_blocks"  style="left: 65%;"></div>
+                            <div class="caorusel_blocks" style="top:-250px"></div>
+                            <div class="caorusel_blocks" style="left: 40%;top:-250px"></div>
+                            <div class="caorusel_blocks"  style="left: 65%;top:-250px"></div>
                           <h3></h3>
                           <p></p>
                         </div>   

@@ -1,9 +1,11 @@
-<?php
-include_once 'php/connection.php';
-//$_SESSION['user']['username'] = 'test123';
+<?php include("includes/connection.php");
+//$_SESSION['users']['username']=$dbusername=$row['username'];
+//$username=$_SESSION['users']['username']='Leopold';
+//var_dump($_SESSION['session_username']);
 ?>
-
-
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,10 +51,10 @@ include_once 'php/connection.php';
               </div>
               <div id="userIcon">
                 <img src="Images/user.png" style="width: 100%;height:100%" alt="">
-                <?php if(isset($_SESSION['user'])): ?>
-                    <?php echo $_SESSION['user']['username'];?>
+                <?php if(isset($_SESSION['users'])): ?>
+                    <?php  echo ($_SESSION['session_username']);?>
                 <?php else: ?>
-                    <a href="register.php">Register</a>
+                    <a style="left:10%;position:relative;" href="register.php">Register</a>
                 <?php endif;?>
               </div>
             </div>

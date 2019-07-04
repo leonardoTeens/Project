@@ -52,7 +52,7 @@ session_start();
               <div id="userIcon">
                 <img src="Images/user.png" style="width: 100%;height:100%" alt="">
                 <?php if(isset($_SESSION['users'])): ?>
-                    <?php  echo ($_SESSION['session_username']);?>
+                    <a href="#"style="right:7%;position:relative;color:white;" ><?php  echo ($_SESSION['session_username']);?></a>
                 <?php else: ?>
                     <a style="left:10%;position:relative;" href="register.php">Register</a>
                 <?php endif;?>

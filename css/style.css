@@ -180,15 +180,6 @@ color: yellow;
     top: -91%;
 }
 
-.Button{
-    position: relative;
-    width: 20%;
-    height:90%;
-    top: 22%;
-    left: -5%;
-    /*background-color: red;*/
-    display: inline-block;
-}
 .navButtonTxt{
     padding: 10%;
     padding-top: 20%;
@@ -197,13 +188,4 @@ color: yellow;
 }
 .navButtonTxt:hover{
     text-decoration: none;
-}
-#userIcon{
-position: absolute;
-display: inline;
-background:white;
-border-radius: 50%;
-width: 6%;
-height: 65px;
-margin-left: 4%;
 }

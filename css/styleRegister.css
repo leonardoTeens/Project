@@ -137,3 +137,13 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
+#userPanel{
+    position: absolute;
+    width: 7%;
+    height: 50%;
+    top: 15%;
+    color: white;
+    left: 90.5%;
+}
+
+

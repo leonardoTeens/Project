@@ -1,6 +1,4 @@
-<?php 
-session_start();
-unset($_SESSION['session_username']);
+<?php
+include_once 'includes/connection.php';
 session_destroy();
-header("location:login.php");
-?>
+header("location:index.php");

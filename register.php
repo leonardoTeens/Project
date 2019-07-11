@@ -17,10 +17,7 @@ if (isset($_POST["register"])) {
 
             if ($result) {
                 // TODO: add autologin for registered users (Select his nickname from database and set into session)
-				$user = array(
-					$_POST['full_name'],
-					$_POST['email'];
-				);
+				
                 unset($_SESSION['error_message']);
                 header('Location: index.php');
 

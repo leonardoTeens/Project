@@ -1,6 +1,12 @@
 <?php include_once "includes/connection.php";
 include("includes/session.php");
-var_dump( $_SESSION['user']['username']);?>
+/*var_dump( $_SESSION['user']['username']);
+echo '<br>';
+var_dump($_SESSION['user']['email']);
+echo '<br>';
+var_dump($_SESSION['user']['full_name']);*/ 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

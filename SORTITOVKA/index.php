@@ -145,9 +145,9 @@ switch ($sorting)
                         <div class = "description">
                         '.$row["description"].'
                         </div>
-                    </li>
-                    ';
+                    </li>';
                 } 
+               
                 while($row = mysqli_fetch_array($result)); 
                
             ?>
